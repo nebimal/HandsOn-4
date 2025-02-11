@@ -14,7 +14,7 @@ Fib(5) -> Fib(4) -> Fib(3) -> Fib(2) -> Fib(1) -> Fib(0) -> Fib(1) -> Fib(2) -> 
 
 ## Problem 1
 
-# Time Complexity
+### Time Complexity
 
 - The while loop runs O(NK) times.
 
@@ -22,13 +22,13 @@ Fib(5) -> Fib(4) -> Fib(3) -> Fib(2) -> Fib(1) -> Fib(0) -> Fib(1) -> Fib(2) -> 
 
 - Final time complexity: O(NK²)
 
-# Ways to Improve
+### Ways to Improve
 
 - Using a Min-Heap would reduce the time complexity.
 
 ## Problem 2
 
-# Time Complexity
+### Time Complexity
 
 - The for loop runs O(N).
 
@@ -36,6 +36,6 @@ Fib(5) -> Fib(4) -> Fib(3) -> Fib(2) -> Fib(1) -> Fib(0) -> Fib(1) -> Fib(2) -> 
 
 - Final time complexity: O(N)
 
-# Ways to Improve
+### Ways to Improve
 
 - Already time optimal. Not much improvement can be made since we need to loop through the array.
