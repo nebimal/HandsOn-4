@@ -9,3 +9,5 @@ Fib(5) -> Fib(4) + Fib(3) -> 3 + 2 = 5
 - Fib(1) -> 1
 - Fib(0) -> 0
 
+- Fib(5) -> Fib(4) -> Fib(3) -> Fib(2) -> Fib(1) -> Fib(0) -> Fib(1) -> Fib(2) -> Fib(1) -> Fib(0) -> Fib(3) -> Fib(2) -> Fib(1) -> Fib(0) -> Fib(1)
+
