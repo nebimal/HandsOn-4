@@ -12,6 +12,14 @@ Fib(5) -> Fib(4) + Fib(3) -> 3 + 2 = 5
 - Fib(5) -> Fib(4) -> Fib(3) -> Fib(2) -> Fib(1) -> Fib(0) -> Fib(1) -> Fib(2) -> Fib(1) -> Fib(0) -> Fib(3) -> Fib(2) -> Fib(1) -> Fib(0) -> Fib(1)
 
 ## Problem 1
+### Time Complexity
 In the while loop, it runs for O(NK).
 In the for loop, it runs for O(k).
-Final time complexity would be O(NK^2)
+Final time complexity would be O(NK^2).\n
+
+### Way to improve code
+Using a Min-Heap would reduce the time complexity.
+
+## Problem 2
+
+  
